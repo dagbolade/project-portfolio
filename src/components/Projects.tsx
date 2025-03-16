@@ -35,7 +35,7 @@ const projects = [
     category: 'Sports Analytics',
     description: 'Football match prediction using CatBoost and XGBoost. Achieved 89% accuracy in predictions.',
     tags: ['CatBoost', 'XGBoost', 'Sports Analytics'],
-    image: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+    image: 'https://media.istockphoto.com/id/2164442944/photo/robot-arm-reaches-out-to-a-football-soccer-playing-with-machine-robot-arm-and-soccer-grass.jpg?s=1024x1024&w=is&k=20&c=-gnGiWJ57b_tU8oI2-w-fyz_o_p05K-kgVqTkc5O0sA='
   },
   {
     title: 'Intelligent Coin Trading Platform',
@@ -44,6 +44,14 @@ const projects = [
     tags: ['LSTM', 'XGBoost', 'Prophet', 'Streamlit'],
     image: 'https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     demo: 'https://coin-trading-platform.streamlit.app/'
+  },
+  {
+    title: "Movie Recommendation System",
+    category: "AI & Recommender Systems",
+    description: "An advanced recommendation system that suggests movies based on user preferences using collaborative filtering and deep learning models.",
+    tags: ["Recommender Systems", "NLP", "AI", "Flask"],
+    image: "https://images.unsplash.com/photo-1497032205916-ac775f0649ae?auto=format&fit=crop&w=2070&q=80",
+    github: "https://github.com/dagbolade/movie-recommendation-system",
   }
 ];
 
