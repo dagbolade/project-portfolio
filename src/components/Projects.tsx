@@ -35,7 +35,8 @@ const projects = [
     category: 'Sports Analytics',
     description: 'Football match prediction using CatBoost and XGBoost. Achieved 89% accuracy in predictions.',
     tags: ['CatBoost', 'XGBoost', 'Sports Analytics'],
-    image: 'https://media.istockphoto.com/id/2164442944/photo/robot-arm-reaches-out-to-a-football-soccer-playing-with-machine-robot-arm-and-soccer-grass.jpg?s=1024x1024&w=is&k=20&c=-gnGiWJ57b_tU8oI2-w-fyz_o_p05K-kgVqTkc5O0sA='
+    image: 'https://media.istockphoto.com/id/2164442944/photo/robot-arm-reaches-out-to-a-football-soccer-playing-with-machine-robot-arm-and-soccer-grass.jpg?s=1024x1024&w=is&k=20&c=-gnGiWJ57b_tU8oI2-w-fyz_o_p05K-kgVqTkc5O0sA=',
+    demo: "https://footypredictor.up.railway.app/"
   },
   {
     title: 'Intelligent Coin Trading Platform',
@@ -52,7 +53,20 @@ const projects = [
     tags: ["Recommender Systems", "NLP", "AI", "Flask"],
     image: "https://images.unsplash.com/photo-1497032205916-ac775f0649ae?auto=format&fit=crop&w=2070&q=80",
     github: "https://github.com/dagbolade/movie-recommendation-system",
-  }
+  },
+  {
+  title: "Yemisi Artistry",
+  category: "Web Development & Booking System",
+  description: "A professional website for a makeup artist featuring a responsive design with optimized text placement to showcase makeup work. The application includes a sophisticated booking system with dynamic time slots based on service type (longer slots for bridal services), an admin panel for managing bookings and availability, Supabase integration for database management, and automated email notifications via Netlify Functions.",
+  longDescription: "The Yemisi Artistry project is a comprehensive web solution for a professional makeup artist business. Key features include:\n\n- **Dynamic booking system** with intelligent time slot allocation (1.5 hours for regular services, 2 hours for bridal services)\n- **Secure admin dashboard** for managing appointments, blocking dates, and viewing client information\n- **Responsive design** with optimized image and text placement to properly showcase makeup work\n- **Email integration** using Netlify Functions to send automated confirmations\n- **Calendar management** with date range selection for blocking vacation periods\n- **Supabase backend** for secure data storage and management\n- **Authentication system** to protect admin functionality\n- **Client management features** to track booking history and preferences",
+  tags: ["React", "Supabase", "Tailwind CSS", "Netlify Functions", "Email Integration", "Booking System", "Admin Dashboard"],
+  image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2070&q=80",
+  github: "https://github.com/dagbolade/Beauty_makeup_website",
+  live: "https://artistrybyyemisi.netlify.app/",
+  year: "2025",
+  client: "Yemisi Artistry",
+  role: "Full Stack Developer"
+}
 ];
 
 const ProjectCard = ({ project, index }) => {
