@@ -62,7 +62,7 @@ const projects = [
   tags: ["React", "Supabase", "Tailwind CSS", "Netlify Functions", "Email Integration", "Booking System", "Admin Dashboard"],
   image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2070&q=80",
   github: "https://github.com/dagbolade/Beauty_makeup_website",
-  live: "https://artistrybyyemisi.netlify.app/",
+  demo: "https://artistrybyyemisi.netlify.app/",
   year: "2025",
   client: "Yemisi Artistry",
   role: "Full Stack Developer"
